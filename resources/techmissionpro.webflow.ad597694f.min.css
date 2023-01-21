@@ -12919,9 +12919,17 @@ p {
         font-size: 43px
     }
 
-    .div-block-6 {
+    .div-block-6:nth-child(2n) {
         max-width: 263px;
-        margin-bottom: 25px
+        margin-bottom: 25px;
+        background-color: darkgrey;
+       
+    }
+
+.div-block-6:nth-child(2n) .text-block-5 {
+
+        color: blue;
+
     }
 
     .div-block-8 {
@@ -17995,7 +18003,8 @@ p {
     }
 
     .text-block-5 {
-        text-align: left
+        text-align: left;
+        
     }
 
     .div-block-8 {
