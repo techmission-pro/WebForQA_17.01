@@ -3670,6 +3670,16 @@ p {
     -webkit-text-fill-color: transparent
 }
 
+.text-span-222 {
+    background-image: linear-gradient(267deg, #59dbf0 28%, #83b4ff 67%, #a57dff 85%, #8058dc 58%);
+    font-weight: 800;
+    text-shadow: none;
+    white-space: normal;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
 .text-span-2.true.rec {
     background-image: -webkit-gradient(linear, left top, right top, from(#8157db), color-stop(62%, #3badea), color-stop(100%, #01ff70), to(#8058dc));
     background-image: linear-gradient(90deg, #8157db, #3badea 62%, #01ff70 100%, #8058dc)
