@@ -401,7 +401,13 @@
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
+                <div class="calc">
+                    <input type="text" name="num1" class="calc-input" />
+                    +
+                    <input type="text" name="num2" class="calc-input" />
+                    <button type="button" class="calc-calculate">=</button>
+                    <!-- <span class="calc-result"></span> -->
+                    <input type="text" readonly class="calc-input calc-result" />
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -424,6 +430,48 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
 <!-- test coment -->
+
+<script src="/Users/mac/Documents/New Depository/resources/calc.js"></script>
+<style>
+    .calc-input {
+        border-radius: 15px 50px 30px;
+        border: 2px solid lightsteelblue;
+        padding: 20px; 
+        width: 150px;
+        height: 15px; 
+        text-align: center;
+        font-size: 30px;
+        background: -webkit-linear-gradient(blue, yellow);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+    .calc-calculate {
+        display: inline;
+        padding: 7px 5px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: black;
+        background-color: lightsteelblue;
+        border: none;
+        border-radius: 10px 30px;
+        box-shadow: 0 4px grey;
+  }
+    
+    .calc-calculate:active {
+        background-color: lightblue;
+        box-shadow: 0 3px #666;
+        transform: translateY(4px)
+    }
+    .div-block-27 {
+        border-radius: 15px 50px 30px;
+    }
+
+
+</style>
 
 </body>
 </html>
