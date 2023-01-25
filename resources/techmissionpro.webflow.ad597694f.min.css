@@ -2342,7 +2342,7 @@ p {
 }
 
 .navigation {
-    position: static;
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -2420,6 +2420,7 @@ p {
 }
 
 .section.main {
+	padding: 95px;
     overflow: hidden;
     margin-top: 0;
     background-color: #fff;
