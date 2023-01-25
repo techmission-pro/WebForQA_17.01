@@ -3048,14 +3048,11 @@ p {
     letter-spacing: 4px
 }
 
-.text-block-5 {
+.text-block-5  {
     font-family: Montserrat, sans-serif;
     color: #303030
 }
 
-.div-block-5 {
-    margin-top: 10px
-}
 
 .columns-3 {
     display: -webkit-box;
@@ -3085,7 +3082,8 @@ p {
     background-color: #fff;
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
 }
-
+	
+	
 .div-block-7 {
     max-width: 260px
 }
@@ -22653,4 +22651,10 @@ p {
     .div-block-350, .div-block-351, .div-block-352, .div-block-353 {
         text-align: center
     }
+	
 }
+.div-block-6:nth-of-type(2n) {
+background-color: lime;}
+
+.div-block-6:nth-of-type(2n) .text-block-5{
+color: blue;}
