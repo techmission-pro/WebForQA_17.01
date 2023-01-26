@@ -1248,3 +1248,25 @@
 .div-block-6:nth-child(odd) .text-block-5{
   color: red;
 }
+
+
+.calc-input{
+  cursor: pointer;
+height: 25px;
+width: 75px;
+border: 2px solid black;
+border-radius: 3px;
+}
+
+.calc-calculate{
+  height: 30px;
+  width: 30px;
+  color: black;
+  border-radius: 20px;
+}
+
+.calc-op{
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
