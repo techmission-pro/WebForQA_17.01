@@ -1282,3 +1282,38 @@ span {
   text-align: justify;
   text-indent: 70px;
 }
+
+
+
+.div-block-12 {
+flex-direction: row-reverse;
+}
+.text-block-9 {
+  padding: 12px;
+}
+
+.emoji {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+
+}
+.text-block-6 {
+  padding-bottom: 25px;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    line-height: 39px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.div-block-6:nth-child(2n) {
+  background-color: gray;
+  color: blue;}
+.div-block-6:nth-child(2n) .text-block-5 {
+  color: blue;
+}
+
+.div-block-6:nth-child(3n) .text-block-5 {
+  color: red;
+}
