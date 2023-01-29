@@ -1,9 +1,9 @@
 .div-block-6:nth-child(2n) {
-background-color: blue;
-color: red; 
+background-color: gray;
+color: blue; 
 }	
 
 .div-block-6:nth-child(2n) .text-block-5  {
-background-color: blue;
-color: red; 
+background-color: gray;
+color: blue; 
 }
