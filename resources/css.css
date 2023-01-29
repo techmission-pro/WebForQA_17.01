@@ -1317,3 +1317,115 @@ flex-direction: row-reverse;
 .div-block-6:nth-child(3n) .text-block-5 {
   color: red;
 }
+ /*Стили для калькулятора*/
+.calc-input {
+  width: 110px;
+  height: 35px;
+}
+
+/* стили кнопок калькулятора */
+.calc-input {
+  
+/*background-color: #9ee8e2;
+  border: none;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari 
+  transition-duration: 0.4s;*/
+
+  /*Радиус*/
+  border-radius: 12px;
+  /* Тень*/
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+/* Стиль кнопки "calc-op"*/
+.calc-op {
+    background-color: #b9eeee
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    /* радиус кнопки */
+    border-radius: 12px;
+}
+
+ .calc-op {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #042f3e;
+}
+
+.calc-op:hover {
+    background-color: #34bbe8;
+    color: white;
+}
+
+/* ==========================================================================================*/
+
+/* Стиль кнопки "calc-input"*/
+
+.calc-input{
+  background-color: #125572
+  border: none;
+  color: black
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.calc-input {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.calc-op:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*======================================================================*/
+
+/* Стиль кнопки "calc-calculate"*/
+.calc-calculate {
+  background-color: #b9eeee
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  /* радиус кнопки */
+  border-radius: 12px;
+}
+
+.calc-calculate {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #042f3e;
+}
+
+.calc-calculate:hover {
+  background-color: #34bbe8;
+  color: white;
+/* ======================================================================*/
