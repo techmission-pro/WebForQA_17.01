@@ -1,4 +1,4 @@
- function calculate() {
+ document.querySelector.('calc-calculate').addEventListener ('click', function calculate() {
 	const num1 = +document.querySelector('[name="num1"]').value;
 	const num2 = +document.querySelector('[name="num2"]').value;
 	const op = document.querySelector('[name="op"]').value;
@@ -14,12 +14,12 @@
 	} else if(op === 'divide') {
 	    result = num1 / num2;	
 	} else {	
-		console erorr('Wrong op!');
+		console error('Wrong op!');
 		alert ('Wrong operation is selected');
 	}
-	
+
 	document.querySelector('.calc-result').value = result;
- }	
+ })
 
 document.querySelector('.calc-calculate').addEventListener('click', function () {
 	calculate ()
